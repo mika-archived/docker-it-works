@@ -1,0 +1,16 @@
+{
+  "name": "@mika-sandbox/docker-it-works",
+  "version": "1.0.0",
+  "description": "It works on Docker",
+  "main": "lib/index.js",
+  "repository": "https://github.com/mika-sandbox/docker-it-works",
+  "author": "Fuyuno Mikazuki",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "serve --listen 8000"
+  },
+  "dependencies": {
+    "serve": "^11.0.2"
+  }
+}

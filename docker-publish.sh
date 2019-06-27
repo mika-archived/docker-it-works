@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# constants
+GITHUB_REPOSITORY=mika-sandbox/docker-it-works
+DOCKER_IMAGE_TAGGED=mika-sandbox/docker-it-works
+DOCKER_IMAGE_NAME=it-works
+DOCKER_IMAGE_VERSION=1.0.0
+DOCKER_IMAGE_PUBLISH=docker.pkg.github.com/$GITHUB_REPOSITORY/$DOCKER_IMAGE_NAME:$DOCKER_IMAGE_VERSION
+
+docker tag  $DOCKER_IMAGE_TAGGED:develop $DOCKER_IMAGE_PUBLISH
+docker push $DOCKER_IMAGE_PUBLISH

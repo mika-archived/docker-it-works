@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# build scripts
+*.sh
+
+# misc
+Dockerfile
+LICENSE
+README.md
